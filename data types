@@ -1,0 +1,73 @@
+divided into 2 types they are given below.
+                * single value data types
+                * collection data types.
+  single value data types:
+               * integer
+               * float
+               * boolean
+               * complex
+collection data types:
+               * string
+               * list
+               * tuple
+               * set
+integer:
+           any number with out deciaml part both positive and negutive consider as a integer.
+                ex:
+                   x=50
+                   print(type(x))
+float:
+             any  number with deciaml part both positive and negutive is considered as a float.
+boolean:
+             boolean have only two values true and false.
+             in python true considered as one.
+             in python false considered as zero.
+                      ex:
+                          a=true
+                          b=false
+                          print(a+a)
+                          print(b+b)
+complex:
+             complex data type has two parts real and imaginary.
+                 ex: x+yj
+                     x--------> real
+                    yj--------> imaginary
+collection data types:
+1.string:
+        string is declared uasing single quote(' ') dpuble auotes(" ") and trible quotes (''' ''')
+        single line string is declared using single quotes and double quotes where as multiple line string is declared using (''' ''')
+        string is ordered data type it can supports indexing(positive and negutive)
+        string is immutable data it cant be modified.
+2.list:
+        elements inside list is declared using squre brackets.
+        list is ordered data type it supports indexing.
+        list is mutable data type. it can be modified.
+        in program list is both homogenous and hetrogenious
+        duplicates are allowed in list.
+3. tuple:
+        elements inside tuple is declared using round brackets.
+        tuple is ordered data type.
+        tuple is immutable it cant be modified.
+        tuple is both homogenous and hetrogenous.
+        tuple allowes duplicates.
+#### diffrence between list and tuple ####
+elements inside   tuple is declared using () round brackets where as in list we can use squre brackets []
+tuple is immutable data type where as list us mutable data type.
+to decalre single value in tuple(,) comma is mandatorey where as in list comma (,) is not mandatorey.
+4. set:
+          elements in set is declared using curly brackets{}
+          empty set is declared using set () otherwise python will considered a dictionarey.
+          it is unordered data type it will not support indexing.
+          it is mutable data type it an be modified
+          duplicates are not allowed.
+          set is both homogenous and hetrogenous type but it allowes only immutable data types.
+5. dictionarey:
+          elements in dictionarey stored using {} curly brackets.
+          elements are stored in the form of "key" and "value" pair.
+          key and value pair seperated by (:) key value pair is seperated by comma (,)
+          dictionarey is ordered data type.
+          dictionarey is mutable data type it can  be modified.
+### diffrence between key and value ###
+duplicate keys are not allowed if we try to add duplicate is then old value is replace with new value where as duplicate values are allowed.
+only immutable keys are allowed where as value can be any data type. only immutable is allowed value can be of any data type.
+            
