@@ -1,0 +1,117 @@
+1. list built in methods:
+        *append 
+        *insert
+        *extend
+        *remove
+        *pop
+append:
+      this is use to add one value at a time to the list.
+      this method will add element at the end of the list.
+      ex: x=[11,12,13,14]
+          r=x.append(15)
+          print(f'r:{r}')
+insert:
+      this method is use to add one value at a time in particular index position.
+      if the index position is more than length of the list. then value is added at the end of the list.
+      ex: x=[11,12,13,14]
+          r=x.insert (11,'ram')
+          print(f'r:{r}')
+          print(x)
+      ex2: x=[11,12,13,14]
+          r=x.insert (11,'ram')
+          print(x)
+          x.insert(3,'sam')
+          print(x)
+### what is the diffrence between append and insert method ###
+by using append methos we can adda a value at the end of the list where as by using insert we can add at any index position.
+extend:
+      this method is use to add multiple values at a time to the list.
+      multiple values need to be provided in collection data type like[string,tuple,list,set,dictionarey]
+      ex: x=[11,12]
+          x.extend['abc']
+          x.extend([200,300])
+          print(x)
+remove:
+    this method is use to remove one value at a time.
+    if the value provided is availble more than ones than it will remove the first occurence of the value.
+    if the provided value is not availble then it gives value error.
+    ex: x=[10,20,10,30,40]
+    x.remove(30)
+pop:
+    pop removes element base on the index position.
+    it returns the removed value.
+    if the index position is more than length of the list is throughs index error.
+       ex: x=[10,20,30,40]
+           r=x.pop()
+           print (f'{r}:{r}')
+           print(f'{x}:{x}')
+### what is the diffrence between remove and pop methid  ###
+remove takes value as argument where as pop takes index as argument.
+remove method will not return any value where as pop() returns removed value.
+providing argument is mandatory in remove method where as in pop it is mandatorey.
+
+2.tuple built in methods:
+index:
+     this is use to find index of the value provided .
+     if the provided value is not availble then it gives erorr.
+     if the value occures more than ones it gives index position of first occurence.
+     ex:  x=(10,20,30,40)
+          r=x.index(20)
+          print(f'r:{r}')
+count:
+this returns number of times value is avialble in list.
+the value is not availble then it returns '0'.
+ex:       x=(10,20,30,40)
+          r=x.count(20)
+          print(f'r:{r}')
+
+3.set built in methods:
+add():
+      this method is used to add one value at a time.
+      this method adds the value in random position.
+      ex:  x=set()
+           x.add(20)
+           x.add(10)
+           x.add(false)
+           x.add(true)
+update:
+       this method is use to add multiple values to set.
+       it takes only one argument and that should be of collection data type.
+       ex: x=set()
+           x.update('aacd')
+           print(x)
+           x.update([11,121,'abc'])
+           print(x)
+remove:
+       this method is used to remove one value at a time in set.
+       if the value is not availble in set it througs "key error".
+       ex: x={'abc', 11, 'c', 21,'a','d'}
+           x.remove(11)
+           print(x)
+pop:
+  this method will not accept any argument.
+  it removes and returns the random value.
+  ex: x={'abc',11,'c',21,'a','d'}
+      r=x.pop()
+      print(f'r:{r}')
+      print(f'x:{x}')
+4. dictionarey built in methods:
+pop:
+    pop takes key as argument.
+    it returns the value of key provided.
+    if the provided key is not availble then it througs key error.
+    ex: x= x={'a':20,'b':30,'c':40}
+        r=x.pop(a)
+        print(f'r:{r}')
+        print(f'x:{x}')
+pop items:
+        this method not take any argument.
+        it removes and returns lost key value pair of dictionarey in form of tuple.
+        ex: x= x={'a':20,'b':30,'c':40}
+            r=x.pop item()
+            print(f'r:{r}')
+            print(f'x:{x}')
+### diffrence between pop and pop item ###
+pop takes keya as a argument wehre as pop item will not accept any argument.
+pop returns value of key provided where as pop items() returns key value pair in form of tuple.
+         
