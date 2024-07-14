@@ -1,0 +1,53 @@
+if: 
+  if the given condition is true then comtroll goes inside if block.
+  if block is also called as 'TRUE' block.
+  for if block else block is not mandatory.
+else block:
+  if the given condition is false then controll goes to else block.
+  else block is also called as 'false block'.
+  for else block if block is mandatorey.
+ex:
+if true:
+   print('inside if')
+else:
+   print('inside else')
+ex2:
+a,b,c,d=10,20,30,40
+if a>b:
+  if a>c:
+     if a>d:
+         print('a' is greater')
+     else:
+         print('d' is greater')
+  else:
+       if c>d:
+           print('c' is greater')
+       else:
+           print('d' is greater')
+else:
+    if b>c:
+       if b>d:
+          print('b is greater')
+       else:
+          print('d is greater')
+  else:
+      if c>d: 
+          print('c is greater')
+      else:
+          print('d is greater')
+elif block:
+       if previous condition is false then controll goes to elif block.
+       for one if block we can write multiple elif blockes.
+       if there are multiple conditions to check then we use elif block.
+  ex: 
+      a,b,c,d,e= 10,11,12,13,14,15
+   if a>b and a>c and a>e:
+          print('a is greater')
+  elif (b>c and b>d and b>c):
+         print(' b is greater')
+  elif(c>d and e>c):
+         print('c is greater')
+  elif: d>e
+        print('d is greater')
+        else
+        print('e is greater)
